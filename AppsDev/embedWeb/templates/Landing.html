@@ -1,0 +1,10 @@
+{% extends "NavBar.html" %}
+{% block content %}
+    <br><br><br><br>
+    <h1>Welcome to the data visualisation tool</h1>
+    <h2>As a first step, please upload your data as a CSV</h2>
+    <form action="/data_upload" method='POST' enctype="multipart/form-data">
+      <input type="file" name="file">
+      <button type="submit"> Submit </button>
+    </form>
+{% endblock %}

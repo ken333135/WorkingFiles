@@ -1,0 +1,108 @@
+Source,Source_name,Destination,Destination_name,Marker,Route_name,Mode_ID
+377906,Blk 649A,378233,Hall 1,1,Campus Rider Green,1
+378233,Hall 1,378237,Canteen 2,2,Campus Rider Green,1
+378237,Canteen 2,383011,Student Services Centre,3,Campus Rider Green,1
+383011,Student Services Centre,383013,Administration Building,4,Campus Rider Green,1
+383013,Administration Building,383014,Canteen 2,5,Campus Rider Green,1
+383014,Canteen 2,377906,Blk 649A,6,Campus Rider Green,1
+378224,Canteen A & Lee Wee Nam Library / Opp NIE,382995,School of Biological Sciences,1,Campus Loop Red (CL-R),2
+382995,School of Biological Sciences,378227,Wee Kim Wee School of Communications & Information (S1),2,Campus Loop Red (CL-R),2
+378227,Wee Kim Wee School of Communications & Information (S1),378228,Hall 7,3,Campus Loop Red (CL-R),2
+378228,Hall 7,378229,Innovation Centre Canteen B & Chinese Heritage Centre,4,Campus Loop Red (CL-R),2
+378229,Innovation Centre Canteen B & Chinese Heritage Centre,378230,Hall 4,5,Campus Loop Red (CL-R),2
+378230,Hall 4,378233,Hall 1,6,Campus Loop Red (CL-R),2
+378233,Hall 1,378237,Canteen 2,7,Campus Loop Red (CL-R),2
+378237,Canteen 2,382998,Nanyang Heights / Beside Hall 9,8,Campus Loop Red (CL-R),2
+382998,Nanyang Heights / Beside Hall 9,378202,Graduate Hall / Hall 11,9,Campus Loop Red (CL-R),2
+378202,Graduate Hall / Hall 11,378204,Hall 12 & 13 / Near Hall 3 & 16,10,Campus Loop Red (CL-R),2
+378204,Hall 12 & 13 / Near Hall 3 & 16,378224,Canteen A & Lee Wee Nam Library / Opp NIE,11,Campus Loop Red (CL-R),2
+378225,Lee Wee Nam Library & Canteen A / Outside NIE,382999,Hall 3 & 16,1,Campus Loop - Blue (CL-B),3
+382999,Hall 3 & 16,378203,Hall 14 & 15,2,Campus Loop - Blue (CL-B),3
+378203,Hall 14 & 15,378222,Hall 10 & 11,3,Campus Loop - Blue (CL-B),3
+378222,Hall 10 & 11,383003,Nanyang Heights / Opp Hall 8 & 9,4,Campus Loop - Blue (CL-B),3
+383003,Nanyang Heights / Opp Hall 8 & 9,378234,Hall 6 / Opp Hall 2,5,Campus Loop - Blue (CL-B),3
+378234,Hall 6 / Opp Hall 2,383004,Hall 5,6,Campus Loop - Blue (CL-B),3
+383004,Hall 5,383006,Innovation Centre & Canteen B / Near Chinese Heritage Centre,7,Campus Loop - Blue (CL-B),3
+383006,Innovation Centre & Canteen B / Near Chinese Heritage Centre,383009,School of Physical & Mathematical Sciences,8,Campus Loop - Blue (CL-B),3
+383009,School of Physical & Mathematical Sciences,383010,Wee Kim Wee School of Communications & Information (S1),9,Campus Loop - Blue (CL-B),3
+383010,Wee Kim Wee School of Communications & Information (S1),378226,School of Civil & Environmental Engineering (N1),10,Campus Loop - Blue (CL-B),3
+378226,School of Civil & Environmental Engineering (N1),378225,Lee Wee Nam Library & Canteen A / Outside NIE,11,Campus Loop - Blue (CL-B),3
+377906,Blk 649A,378233,Hall 1,1,Campus WeekEnd Rider Brown,4
+378233,Hall 1,378237,Canteen 2,2,Campus WeekEnd Rider Brown,4
+378237,Canteen 2,383011,Student Services Centre,3,Campus WeekEnd Rider Brown,4
+383011,Student Services Centre,383013,Administration Building,4,Campus WeekEnd Rider Brown,4
+383013,Administration Building,378207,ADM Hall 8,5,Campus WeekEnd Rider Brown,4
+378207,ADM Hall 8,378224,Canteen A & Lee Wee Nam Library / Opp NIE,6,Campus WeekEnd Rider Brown,4
+378224,Canteen A & Lee Wee Nam Library / Opp NIE,383015,School of Civil & Environmental Engineering (N1),7,Campus WeekEnd Rider Brown,4
+383015,School of Civil & Environmental Engineering (N1),382995,School of Biological Sciences,8,Campus WeekEnd Rider Brown,4
+382995,School of Biological Sciences,378227,Wee Kim Wee School of Communications & Information (S1),9,Campus WeekEnd Rider Brown,4
+378227,Wee Kim Wee School of Communications & Information (S1),378228,Hall 7,10,Campus WeekEnd Rider Brown,4
+378228,Hall 7,378229,Innovation Centre Canteen B & Chinese Heritage Centre,11,Campus WeekEnd Rider Brown,4
+378229,Innovation Centre Canteen B & Chinese Heritage Centre,378230,Hall 4,12,Campus WeekEnd Rider Brown,4
+378230,Hall 4,383018,Hall 5,13,Campus WeekEnd Rider Brown,4
+383018,Hall 5,377906,Blk 649A,14,Campus WeekEnd Rider Brown,4
+22009,Boon Lay Interchange,22501,Blk 662A,1,179,5
+22501,Blk 662A,22511,Blk 658C,2,179,5
+22511,Blk 658C,22521,PIONEER STN EXIT A ,3,179,5
+22521,PIONEER STN EXIT A ,22451,Blk 643,4,179,5
+22451,Blk 643,27301,Blk 978,5,179,5
+27301,Blk 978,27321,Blk 948,6,179,5
+27321,Blk 948,27281,Hall 1,7,179,5
+27281,Hall 1,27291,OPP HALL 6 ,8,179,5
+27291,OPP HALL 6 ,27311,HALL 2 ,9,179,5
+27311,HALL 2 ,27061,OPP BLK 41 ,10,179,5
+27061,OPP BLK 41 ,27211,Canteen A & Lee Wee Nam Library / Opp NIE,11,179,5
+27211,Canteen A & Lee Wee Nam Library / Opp NIE,27221,School of Civil & Environmental Engineering (N1),12,179,5
+27221,School of Civil & Environmental Engineering (N1),27231,Wee Kim Wee School of Communications & Information (S1),13,179,5
+27231,Wee Kim Wee School of Communications & Information (S1),27241,HALL 7 ,14,179,5
+27241,HALL 7 ,27251,INNOVATION CTR ,15,179,5
+27251,INNOVATION CTR ,27261,Hall 4,16,179,5
+27261,Hall 4,27329,Blk 840,17,179,5
+27329,Blk 840,27309,Blk 705,18,179,5
+27309,Blk 705,22459,Blk 643,19,179,5
+22459,Blk 643,22529,PIONEER STN EXIT B ,20,179,5
+22529,PIONEER STN EXIT B ,22519,Blk 608,21,179,5
+22519,Blk 608,22509,BLK 664C ,22,179,5
+22509,BLK 664C ,22009,Boon Lay Interchange,23,179,5
+22009,Boon Lay Interchange,27281,Hall 1,1,179a,6
+27281,Hall 1,27291,OPP HALL 6 ,2,179a,6
+27291,OPP HALL 6 ,27311,HALL 2,3,179a,6
+27311,HALL 2,27061,OPP BLK 41,4,179a,6
+27061,OPP BLK 41 ,27211,Canteen A & Lee Wee Nam Library / Opp NIE,5,179a,6
+27211,Canteen A & Lee Wee Nam Library / Opp NIE,27221,School of Civil & Environmental Engineering (N1),6,179a,6
+27221,School of Civil & Environmental Engineering (N1),27231,Wee Kim Wee School of Communications & Information (S1),7,179a,6
+27231,Wee Kim Wee School of Communications & Information (S1),27241,HALL 7 ,8,179a,6
+27241,HALL 7 ,27251,INNOVATION CTR ,9,179a,6
+27251,INNOVATION CTR ,27261,Hall 4,10,179a,6
+27261,Hall 4,22009,Boon Lay Interchange,11,179a,6
+22009,Boon Lay Interchange,22489,Blk 683A,1,199,7
+22489,Blk 683A,21371,Blk 680C,2,199,7
+21371,Blk 680C,27091,OPP BLK 271 CP ,3,199,7
+27091,OPP BLK 271 CP ,27101,OPP WESTWOOD SEC SCH ,4,199,7
+27101,OPP WESTWOOD SEC SCH ,27121,Nanyang Avenue,5,199,7
+27121,Nanyang Avenue,27171,Lorong Danau,6,199,7
+27171,Lorong Danau,27181,PUB Sub station,7,199,7
+27181,PUB Sub station,27011,BLK 55 ,8,199,7
+27011,BLK 55 ,27021,Hall 14 & 15,9,199,7
+27021,Hall 14 & 15,27031,Hall 12 & 13 / Near Hall 3 & 16,10,199,7
+27031,Hall 12 & 13 / Near Hall 3 & 16,27041,CP 7 ,11,199,7
+27041,CP 7 ,27051,NIE Library,12,199,7
+27051,NIE Library,27219,BLK 2 ,13,199,7
+27219,BLK 2 ,27069,BLK 41 ,14,199,7
+27069,BLK 41 ,27209,HALL 8 ,15,199,7
+27209,HALL 8 ,27199,Hall 10 & 11,16,199,7
+27199,Hall 10 & 11,27189,PUB Sub station,17,199,7
+27189,PUB Sub station,27179,Lorong Danau,18,199,7
+27179,Lorong Danau,27169,Jalan Bahar,19,199,7
+27169,Jalan Bahar,27129,OPP NANYANG AVE ,20,199,7
+27129,OPP NANYANG AVE ,27109,WESTWOOD SEC SCH ,21,199,7
+27109,WESTWOOD SEC SCH ,27099,BLK 271 CP ,22,199,7
+27099,BLK 271 CP ,21379,Blk 263,23,199,7
+21379,Blk 263,22481,Blk 691A Multi Storey Car Park,24,199,7
+22481,Blk 691A Multi Storey Car Park,22009,Boon Lay Interchange,25,199,7
+EW27(mrt),Boon Lay Station,EW28(mrt),Pioneer Station,1,East West Line,8
+EW28(mrt),Pioneer Station,EW27(mrt),Boon Lay Station,1,East West Line,9
+2GT1,Hall 12 (2GT1),2GT2,Hall 13 (2GT2),1,2 Get There,10
+2GT3,Hall 14 (2GT3),2GT2,Hall 13 (2GT2),1,4 Get There,10
+2GT2,Hall 13 (2GT2),2GT1,Hall 12 (2GT1),2,5 Get There,10
+2GT2,Hall 13 (2GT2),2GT3,Hall 14 (2GT3),2,3 Get There,10

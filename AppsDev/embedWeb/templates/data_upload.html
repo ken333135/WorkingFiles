@@ -1,0 +1,29 @@
+{% extends "NavBar.html" %}
+{% block content %}
+    <h1>Step 2: Please identify the type for your columns</h1>
+    <h2>Identify column types</h2>
+    <br>
+    <div class="container">
+      <form action="/form2" method='POST'>
+        <ul class="list-group" id='list1'>
+          <script type="text/javascript">
+            var names= {{columns | safe}};
+            ul=document.getElementById('list1');
+            names.forEach(function(name){
+              var li = document.createElement('li');
+              ul.appendChild(li);
+              li.innerHTML += name;
+
+              ddown = document.createElement('select');
+              ddown.name = name;
+              ddown.appendChild(new Option("Continuous"));
+              ddown.appendChild(new Option("Categorical"));
+              ul.appendChild(ddown);
+              ul.appendChild(document.createElement("br"));
+            });
+          </script>
+        </ul>
+        <p><input type = "submit" value = "submit" /></p>
+      </form>
+    </div>
+{% endblock %}

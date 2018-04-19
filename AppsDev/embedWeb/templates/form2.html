@@ -1,0 +1,80 @@
+{% extends "NavBar.html" %}
+{% block content %}
+<link rel="stylesheet" href={{cdn_css | safe}} type="text/css"/>
+<script type="text/javascript" src={{cdn_js | safe}}></script>
+
+<!--form to take the user input-->
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#scatter">Scatter</a></li>
+    <li><a data-toggle="tab" href="#bar">Bar</a></li>
+  </ul>
+
+  <div class="container">
+    <div class="tab-content">
+      <div id="scatter" class="tab-pane fade in active">
+        <h1>Change your Scatter Plot variables here</h1>
+        <div class="row">
+          <div class="col-lg-4">
+            <form action="/plot2" method='POST'>
+              <div class="form-group" id="myList">
+                <label for="sel1"> Select Y Axis Variable </label>
+                 <select class="form-control" id="sel1" name="Y_select">
+                   {% for Cont in Continuous %}
+                     <option>{{Cont}}</option>
+                   {% endfor %}
+                 </select>
+
+                 <label for="sel1"> Select X Axis Variable </label>
+                  <select class="form-control" id="sel2" name="X_select">
+                    {% for Cont in Continuous %}
+                      <option>{{Cont}}</option>
+                    {% endfor %}
+                  </select>
+
+                  <label for="sel3"> Select Group By Category </label>
+                   <select class="form-control" id="sel3" name="Cat_select">
+                     {% for cat in Categorical %}
+                      <option> {{cat}} </option>
+                     {% endfor %}
+                   </select>
+
+                   <p><input type = "submit" value = "submit" /></p>
+              </form>
+             </div>
+           </div>
+         </div>
+        </form>
+      </div>
+
+      <div id="bar" class="tab-pane fade">
+        <h1>Change your Bar Plot variables here</h1>
+        <div class="row">
+          <div class="col-lg-4">
+            <form action="/plot2" method='POST'>
+              <div class="form-group" id="myList">
+                <label for="sel1"> Select Category 1 </label>
+                 <select class="form-control" id="sel1" name="grp1_select">
+                   {% for cat in Categorical %}
+                    <option> {{cat}} </option>
+                   {% endfor %}
+                 </select>
+
+                 <label for="sel1"> Select Category 2 </label>
+                  <select class="form-control" id="sel2" name="grp2_select">
+                    {% for cat in Categorical %}
+                     <option> {{cat}} </option>
+                    {% endfor %}
+                  </select>
+
+                   <p><input type = "submit" value = "submit" /></p>
+              </form>
+             </div>
+           </div>
+         </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock %}

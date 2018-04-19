@@ -1,0 +1,58 @@
+{% extends "NavBar.html" %}
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <form action = "/plot" method = 'POST'>
+        <!--
+         <p>Title <input type = "text" name = "title" /></p>
+         <p>Color <input type="text" name= "color" /></p>
+                                                            -->
+         <div class="form-group" id="myList">
+           <label for="sel1"> Select Y Axis Variable </label>
+            <select class="form-control" id="sel1" name="Col_select">
+           		<script type="text/javascript">
+             		var names = {{columns |safe}};
+                ul = document.getElementById('sel1');
+             		names.forEach(function(name){
+             			var li = document.createElement('option');
+             			ul.appendChild(li);
+             			li.innerHTML += name;
+             		});
+           		</script>
+            </select>
+
+            <label for="sel2"> Select X Axis Variable </label>
+             <select class="form-control" id="sel2" name="Col_select2">
+            		<script type="text/javascript">
+              		var names = {{columns |safe}};
+                  ul = document.getElementById('sel2');
+              		names.forEach(function(name){
+              			var li = document.createElement('option');
+              			ul.appendChild(li);
+              			li.innerHTML += name;
+              		});
+            		</script>
+             </select>
+          </div>
+
+          <label for="sel3"> Select Group By Category </label>
+           <select class="form-control" id="sel3" name="Col_select3">
+             <script type="text/javascript">
+               var names = {{color_columns |safe}};
+               ul = document.getElementById('sel3');
+               names.forEach(function(name){
+                 var li = document.createElement('option');
+                 ul.appendChild(li);
+                 li.innerHTML += name;
+               });
+             </script>
+           </select>
+
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
