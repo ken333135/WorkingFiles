@@ -1,0 +1,19 @@
+Unnamed: 0,Day,Month,Launch,Return,Work Location,Consist,Depmt,Job Status,Oil Leak,Loco ID,Fault Code,Fault Description,Fault Rectification,Component Unit,Type,Sub Level
+624,24,2018-01-01 00:00:00,BSD,BSD,SBW-YIS S/B,D209+TGV4/5/6+WWCOM2+D201,PWAY,COMPLETED,NO,D209,COOL,"Water temperature lighted up, please check.","1) Checked, expansion water level abit low. 
+2) Topped up expansion tank.
+3) Function test, no warning light on.
+4) Check for leaks. None found.",,,
+644,31,2018-01-01 00:00:00,UPD,UPD,JUR-CLE BB,D208+TTV1+D212,ET,COMPLETED,NO,D212,COOL,"Engine shut down by itself when coming back at RT, pushed in by rear loco.","Checked in single loco consist and single loco, no abnormalities observed.
+- Shunt from TK 08 to TK 33 as single loco and then from TK33 to TK03 in consist, no fault observed.
+- Physically checked components and function check, no abnormalities found.
+- Checked scrubber water, found above minimum. Topped up water at TK03.
+- Checked expansion tank water level, found above minimum. Topped up water at TK 03.
+- Checked for leaks; none found but observed droplets at water pump. 1 drop per 60 seconds. 
+Function test; no abnormalities found. Unable to duplicate fault.
+- Follow up on replacement tomorrow.
+* Due to no water supply at PWAY sliding; forced to Topped up water at TK03. Informed MOC.
+To be monitored",,,
+728,10,2018-04-01 00:00:00,BSD,BSD,KRJ-YWT NB,D210+WWPW2+EL02+D214,ET,ABORT,NO,D210,EXHT,D210 - Black smoke and sparks emits from undercarriage fan gearbox area. Job aborted D210 put to dead and D214 hauled consist back to depot instructed by OCC.,"Cleared the carbon collected from the exhaust ducting cover. Drained the scrubber tank to check in the sensor and the indication light in the cabin working, Tested sensor and indication light working. Top up scrubber tank and function test @P5 for 45 mins. Tested no visible blank smoke and sparts . ",,,
+770,9,2018-05-01 00:00:00,BSD,BSD,CTH-DBG N/B,D208+TGV3+TGV2+TGV1+D209,ET,COMPLETED,NO,D209,EXHT,"ECTO reported smoke enter cabin ,advised them to top up scrubber tank after filled the tank smoke still enter cabin.","Found the scrubber tank cap was open
+- Secured cap and tested ok. No visible smoke seen.
+- Tested ok",,,

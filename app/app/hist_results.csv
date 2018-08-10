@@ -1,0 +1,73 @@
+,Component Unit,Consist,Day,Depmt,Fault Code,Fault Description,Fault Rectification,Job Status,Launch,Loco ID,Month,Oil Leak,Return,Sub Level,Type,Unnamed: 0,Unnamed: 0.1,Unnamed: 0.1.1,Work Location
+0,1a,D209+TGV4/5/6+WWCOM2+D201,24,PWAY,COOL,"Water temperature lighted up, please check.","1) Checked, expansion water level abit low. 
+2) Topped up expansion tank.
+3) Function test, no warning light on.
+4) Check for leaks. None found.",COMPLETED,BSD,D209,2018-01-01 00:00:00,NO,BSD,,,0,0.0,624.0,SBW-YIS S/B
+1,,D208+TTV1+D212,31,ET,COOL,"Engine shut down by itself when coming back at RT, pushed in by rear loco.","Checked in single loco consist and single loco, no abnormalities observed.
+- Shunt from TK 08 to TK 33 as single loco and then from TK33 to TK03 in consist, no fault observed.
+- Physically checked components and function check, no abnormalities found.
+- Checked scrubber water, found above minimum. Topped up water at TK03.
+- Checked expansion tank water level, found above minimum. Topped up water at TK 03.
+- Checked for leaks; none found but observed droplets at water pump. 1 drop per 60 seconds. 
+Function test; no abnormalities found. Unable to duplicate fault.
+- Follow up on replacement tomorrow.
+* Due to no water supply at PWAY sliding; forced to Topped up water at TK03. Informed MOC.
+To be monitored",COMPLETED,UPD,D212,2018-01-01 00:00:00,NO,UPD,,2b,1,1.0,644.0,JUR-CLE BB
+2,,D210+WWPW2+EL02+D214,10,ET,EXHT,D210 - Black smoke and sparks emits from undercarriage fan gearbox area. Job aborted D210 put to dead and D214 hauled consist back to depot instructed by OCC.,"Cleared the carbon collected from the exhaust ducting cover. Drained the scrubber tank to check in the sensor and the indication light in the cabin working, Tested sensor and indication light working. Top up scrubber tank and function test @P5 for 45 mins. Tested no visible blank smoke and sparts . ",ABORT,BSD,D210,2018-04-01 00:00:00,NO,BSD,3c,,2,2.0,728.0,KRJ-YWT NB
+3,4a,D208+TGV3+TGV2+TGV1+D209,9,ET,asdadfada,"ECTO reported smoke enter cabin ,advised them to top up scrubber tank after filled the tank smoke still enter cabin.","Found the scrubber tank cap was open
+- Secured cap and tested ok. No visible smoke seen.
+- Tested ok",COMPLETED,BSD,D209,2018-05-01 00:00:00,NO,BSD,,,3,3.0,770.0,CTH-DBG N/B
+4,,D209+TGV4/5/6+WWCOM2+D201,24,PWAY,COOL,"Water temperature lighted up, please check.","1) Checked, expansion water level abit low. 
+2) Topped up expansion tank.
+3) Function test, no warning light on.
+4) Check for leaks. None found.",COMPLETED,BSD,D209,2018-01-01 00:00:00,NO,BSD,,,4,4.0,624.0,SBW-YIS S/B
+5,,D208+TTV1+D212,31,ET,COOL,"Engine shut down by itself when coming back at RT, pushed in by rear loco.","Checked in single loco consist and single loco, no abnormalities observed.
+- Shunt from TK 08 to TK 33 as single loco and then from TK33 to TK03 in consist, no fault observed.
+- Physically checked components and function check, no abnormalities found.
+- Checked scrubber water, found above minimum. Topped up water at TK03.
+- Checked expansion tank water level, found above minimum. Topped up water at TK 03.
+- Checked for leaks; none found but observed droplets at water pump. 1 drop per 60 seconds. 
+Function test; no abnormalities found. Unable to duplicate fault.
+- Follow up on replacement tomorrow.
+* Due to no water supply at PWAY sliding; forced to Topped up water at TK03. Informed MOC.
+To be monitored",COMPLETED,UPD,D212,2018-01-01 00:00:00,NO,UPD,,,5,5.0,644.0,JUR-CLE BB
+6,,D210+WWPW2+EL02+D214,10,ET,EXHT,D210 - Black smoke and sparks emits from undercarriage fan gearbox area. Job aborted D210 put to dead and D214 hauled consist back to depot instructed by OCC.,"Cleared the carbon collected from the exhaust ducting cover. Drained the scrubber tank to check in the sensor and the indication light in the cabin working, Tested sensor and indication light working. Top up scrubber tank and function test @P5 for 45 mins. Tested no visible blank smoke and sparts . ",ABORT,BSD,D210,2018-04-01 00:00:00,NO,BSD,,,6,6.0,728.0,KRJ-YWT NB
+7,,D208+TGV3+TGV2+TGV1+D209,9,ET,EXHT,"ECTO reported smoke enter cabin ,advised them to top up scrubber tank after filled the tank smoke still enter cabin.","Found the scrubber tank cap was open
+- Secured cap and tested ok. No visible smoke seen.
+- Tested ok",COMPLETED,BSD,D209,2018-05-01 00:00:00,NO,BSD,,,7,7.0,770.0,CTH-DBG N/B
+8,Motor,D209+TGV4/5/6+WWCOM2+D201,24,PWAY,COOL,"Water temperature lighted up, please check.","1) Checked, expansion water level abit low. 
+2) Topped up expansion tank.
+3) Function test, no warning light on.
+4) Check for leaks. None found.",COMPLETED,BSD,D209,2018-01-01 00:00:00,NO,BSD,ATP,ATP,8,624.0,,SBW-YIS S/B
+9,Motor,D208+TTV1+D212,31,ET,COOL,"Engine shut down by itself when coming back at RT, pushed in by rear loco.","Checked in single loco consist and single loco, no abnormalities observed.
+- Shunt from TK 08 to TK 33 as single loco and then from TK33 to TK03 in consist, no fault observed.
+- Physically checked components and function check, no abnormalities found.
+- Checked scrubber water, found above minimum. Topped up water at TK03.
+- Checked expansion tank water level, found above minimum. Topped up water at TK 03.
+- Checked for leaks; none found but observed droplets at water pump. 1 drop per 60 seconds. 
+Function test; no abnormalities found. Unable to duplicate fault.
+- Follow up on replacement tomorrow.
+* Due to no water supply at PWAY sliding; forced to Topped up water at TK03. Informed MOC.
+To be monitored",COMPLETED,UPD,D212,2018-01-01 00:00:00,NO,UPD,Take 2,Motor,9,644.0,,JUR-CLE BB
+10,,D210+WWPW2+EL02+D214,10,ET,EXHT,D210 - Black smoke and sparks emits from undercarriage fan gearbox area. Job aborted D210 put to dead and D214 hauled consist back to depot instructed by OCC.,"Cleared the carbon collected from the exhaust ducting cover. Drained the scrubber tank to check in the sensor and the indication light in the cabin working, Tested sensor and indication light working. Top up scrubber tank and function test @P5 for 45 mins. Tested no visible blank smoke and sparts . ",ABORT,BSD,D210,2018-04-01 00:00:00,NO,BSD,,,10,728.0,,KRJ-YWT NB
+11,,D208+TGV3+TGV2+TGV1+D209,9,ET,EXHT,"ECTO reported smoke enter cabin ,advised them to top up scrubber tank after filled the tank smoke still enter cabin.","Found the scrubber tank cap was open
+- Secured cap and tested ok. No visible smoke seen.
+- Tested ok",COMPLETED,BSD,D209,2018-05-01 00:00:00,NO,BSD,,,11,770.0,,CTH-DBG N/B
+12,,D209+TGV4/5/6+WWCOM2+D201,24,PWAY,COOL,"Water temperature lighted up, please check.","1) Checked, expansion water level abit low. 
+2) Topped up expansion tank.
+3) Function test, no warning light on.
+4) Check for leaks. None found.",COMPLETED,BSD,D209,2018-01-01 00:00:00,NO,BSD,,,624,,,SBW-YIS S/B
+13,,D208+TTV1+D212,31,ET,COOL,"Engine shut down by itself when coming back at RT, pushed in by rear loco.","Checked in single loco consist and single loco, no abnormalities observed.
+- Shunt from TK 08 to TK 33 as single loco and then from TK33 to TK03 in consist, no fault observed.
+- Physically checked components and function check, no abnormalities found.
+- Checked scrubber water, found above minimum. Topped up water at TK03.
+- Checked expansion tank water level, found above minimum. Topped up water at TK 03.
+- Checked for leaks; none found but observed droplets at water pump. 1 drop per 60 seconds. 
+Function test; no abnormalities found. Unable to duplicate fault.
+- Follow up on replacement tomorrow.
+* Due to no water supply at PWAY sliding; forced to Topped up water at TK03. Informed MOC.
+To be monitored",COMPLETED,UPD,D212,2018-01-01 00:00:00,NO,UPD,,,644,,,JUR-CLE BB
+14,,D210+WWPW2+EL02+D214,10,ET,EXHT,D210 - Black smoke and sparks emits from undercarriage fan gearbox area. Job aborted D210 put to dead and D214 hauled consist back to depot instructed by OCC.,"Cleared the carbon collected from the exhaust ducting cover. Drained the scrubber tank to check in the sensor and the indication light in the cabin working, Tested sensor and indication light working. Top up scrubber tank and function test @P5 for 45 mins. Tested no visible blank smoke and sparts . ",ABORT,BSD,D210,2018-04-01 00:00:00,NO,BSD,,,728,,,KRJ-YWT NB
+15,,D208+TGV3+TGV2+TGV1+D209,9,ET,EXHT,"ECTO reported smoke enter cabin ,advised them to top up scrubber tank after filled the tank smoke still enter cabin.","Found the scrubber tank cap was open
+- Secured cap and tested ok. No visible smoke seen.
+- Tested ok",COMPLETED,BSD,D209,2018-05-01 00:00:00,NO,BSD,,,770,,,CTH-DBG N/B
