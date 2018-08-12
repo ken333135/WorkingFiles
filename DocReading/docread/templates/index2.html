@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <title>Shipping Documents Database</title>
+</head>
+
+<body>
+<div class="container" style="text-align:center">
+  <h1>Shipping Documents Database</h1>
+</div>
+
+<br><br>
+
+<div class="container">
+  <div class="jumbotron">
+    <form action='/' method='post'>
+      <div class="form-group-row">
+        <div class="col-xs-3">
+          <label for="date">DateAdded</label>
+          <input name="date" class="form-control" type="text" value="">
+        </div>
+        <div class="col-xs-3">
+          <label for="container">Container</label>
+          <input name="container" class="form-control" type="text" value="">
+        </div>
+        <div class="col-xs-3">
+          <label for="shippedon">ShippedOn</label>
+          <input name="shippedon" class="form-control" type="text" value="">
+        </div>
+        <div class="col-xs-3">
+          <input type="submit" class="btn btn-primary btn-lg" value="Submit">
+        </div>
+      </div>
+      <br><br><br><br>
+      <div class="form-group-row">
+        <div class="col-xs-3">
+          <label for="name">Name</label>
+          <input name="name" class="form-control" type="text" value="">
+        </div>
+        <div class="col-xs-3">
+          <label for="cartons">Cartons</label>
+          <input name="cartons" class="form-control" type="text" value="">
+        </div>
+        <div class="col-xs-3">
+          <label for="weight">Weight</label>
+          <input name="weight" class="form-control" type="text" value="">
+        </div>
+        <div class="col-xs-3">
+          <label for="pdtndate">ProductionDate</label>
+          <input name="pdtndate" class="form-control" type="text" value="">
+        </div>
+      </div>
+    </form>
+    <br><br>
+  </div>
+</div>
+
+<br><br>
+<div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>DocName</th>
+        <th>DateAdded</th>
+        <th>Container</th>
+        <th>ShippedOn</th>
+        <th>Products</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for row in data%}
+      <tr>
+        <td>{{row['doc']}}</td>
+        <td>{{row['date']}}</td>
+        <td>{{row['container']}}</td>
+        <td>{{row['shippedon']}}</td>
+        <td>
+          <table class="table table-condensed">
+            <thead>
+              <th>Name</th>
+              <th>Cartons</th>
+              <th>Weight</th>
+              <th>ProductionDate</th>
+            </thead>
+            {% for inner in row['products']%}
+              <tr>
+                <td>{{inner['name']}}</td>
+                <td>{{inner['cartons']}}</td>
+                <td>{{inner['weight']}}</td>
+                <td>{{inner['pdtndate']}}</td>
+              <tr>
+            {% endfor %}
+          </table>
+        </td>
+      </tr>
+    {%endfor%}
+    </tbody>
+  </table>
+</div>
+
+</body>
+
+
+
+</script>

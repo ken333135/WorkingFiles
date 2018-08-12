@@ -12,7 +12,7 @@ from datetime import datetime
 def parse_date(date):
     return datetime.strptime(date, '%Y%m%d')
     
-data_path = r'C:\Users\jingwenken\Desktop\Ken\CTMO\SnC_RDB_Data\20180529\BSD-DIAG\Hist_Data\Accelerometer\MedianAccelerationsHist.csv'
+data_path = r'C:\Users\Ken\Documents\Ken\WorkingFiles\Dash\Hist_data\Accelerometer\MedianAccelerationsHist.csv'
 data = pd.read_csv(data_path,parse_dates=[3],date_parser=parse_date)
 data[' Acc0'] = data[' Acc0'].replace(' nan',0)
 data[' Acc1'] = data[' Acc1'].replace(' nan',0)

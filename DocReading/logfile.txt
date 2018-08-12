@@ -1,0 +1,115 @@
+In [34]: data = run(r'C:\Users\Ken\Documents\Ken\WorkingFiles\DocReading\TestFolder')
+
+dir created!
+
+total time: 2018-01-01 00:00:55.557017
+
+file temp-0.jpg time taken: 0:00:07.066960
+
+file temp-1.jpg time taken: 0:00:12.716051
+
+file temp-10.jpg time taken: 0:00:05.430626
+
+file temp-11.jpg time taken: 0:00:05.923732
+
+file temp-12.jpg time taken: 0:00:05.934034
+
+file temp-13.jpg time taken: 0:00:05.794985
+
+file temp-14.jpg time taken: 0:00:06.177073
+
+file temp-15.jpg time taken: 0:00:06.549657
+
+file temp-16.jpg time taken: 0:00:05.834893
+
+file temp-17.jpg time taken: 0:00:05.866966
+
+file temp-18.jpg time taken: 0:00:05.414853
+
+file temp-19.jpg time taken: 0:00:05.936818
+
+file temp-2.jpg time taken: 0:00:09.247833
+
+file temp-20.jpg time taken: 0:00:05.469471
+
+file temp-21.jpg time taken: 0:00:05.919021
+
+file temp-22.jpg time taken: 0:00:05.666765
+
+file temp-23.jpg time taken: 0:00:05.995278
+
+file temp-24.jpg time taken: 0:00:06.605087
+
+file temp-25.jpg time taken: 0:00:05.547939
+
+file temp-26.jpg time taken: 0:00:10.634035
+
+file temp-27.jpg time taken: 0:00:26.166698
+
+file temp-28.jpg time taken: 0:00:05.050231
+
+file temp-29.jpg time taken: 0:00:25.438130
+
+file temp-3.jpg time taken: 0:00:00.543540
+
+file temp-4.jpg time taken: 0:00:07.292009
+
+file temp-5.jpg time taken: 0:00:00.541637
+
+file temp-6.jpg time taken: 0:00:05.453359
+
+file temp-7.jpg time taken: 0:00:05.759353
+
+file temp-8.jpg time taken: 0:00:05.593693
+
+file temp-9.jpg time taken: 0:00:05.664475
+
+total time: 2018-01-01 00:03:41.235202
+
+dir created!
+
+total time: 2018-01-01 00:00:10.233288
+
+file temp-0.jpg time taken: 0:00:05.721379
+
+file temp-1.jpg time taken: 0:00:05.731709
+
+file temp-2.jpg time taken: 0:00:14.095189
+
+file temp-3.jpg time taken: 0:00:06.615995
+
+file temp-4.jpg time taken: 0:00:06.905824
+
+file temp-5.jpg time taken: 0:00:06.905897
+
+file temp-6.jpg time taken: 0:00:07.371352
+
+file temp-7.jpg time taken: 0:00:07.380618
+
+file temp-8.jpg time taken: 0:00:17.171892
+
+file temp-9.jpg time taken: 0:00:16.301539
+
+total time: 2018-01-01 00:01:34.201394
+
+dir created!
+
+total time: 2018-01-01 00:00:56.947422
+
+file temp-0.jpg time taken: 0:00:06.771086
+
+file temp-1.jpg time taken: 0:00:09.210403
+
+file temp-2.jpg time taken: 0:00:07.183921
+
+file temp-3.jpg time taken: 0:00:09.717835
+
+file temp-4.jpg time taken: 0:00:10.203810
+
+file temp-5.jpg time taken: 0:00:08.904767
+
+file temp-6.jpg time taken: 0:00:07.596270
+
+file temp-7.jpg time taken: 0:00:08.623865
+
+total time: 2018-01-01 00:01:08.211957
