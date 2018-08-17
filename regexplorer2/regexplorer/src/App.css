@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  background-color: #597191;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #597191;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#textbox {
+  height: 400px;
+  width: 500px;
+  display: block;
+  margin : 0 auto;
+  background: #16182E;
+  color: #fff;
+  font-family: "Arvo";
+  font-weight: 400;
+  font-size: 20px;
+}
+#regexbox {
+  height: 30px;
+  width: 500px;
+  display: block;
+  margin : 0 auto;
+  background: #16182E;
+  color: #fff;
+  font-family: "Arvo";
+  font-weight: 400;
+  font-size: 20px;
+}
+#outputbox {
+  display: block;
+  margin : 0 auto;
+}
+
+label {
+  font-family: 'Arvo';
+  font-size: 24px;
+  font-weight: 600;
+  color: #211BB8;
+}
+
+.headerContainer {
+  text-align: center;
+  padding-top: 80px;
+  height: 100px;
+  color:#fff;
+}
+
+.regexboxContainer {
+  text-align: center;
+}
+
+.textboxContainer {
+  text-align: center
+}
+
+.leftbox {
+  float: left;
+  width: 50%;
+}
+
+.rightbox {
+  float: right;
+  width: 50%;
+}
